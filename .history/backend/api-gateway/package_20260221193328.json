@@ -1,26 +1,25 @@
 {
-  "name": "users-service",
+  "name": "api-gateway",
   "version": "1.0.0",
-  "main": "user-service.js",
+  "main": "api-gateway.js",
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "test": "jest",
-    "lint": "eslint ."
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "bcrypt": "^6.0.0",
+    "axios": "^1.13.4",
     "cors": "^2.8.6",
     "cross-spawn": "^7.0.6",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "glob": "^13.0.0",
+    "http-proxy-middleware": "^3.0.5",
     "jest": "^30.2.0",
-    "jsonwebtoken": "^9.0.3",
     "tar": "^7.5.7"
   },
   "devDependencies": {
